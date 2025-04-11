@@ -3,66 +3,254 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>BLACK VENOM</title>
+  <title>BLACK VENOM ∆VNM404</title>
   <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap" rel="stylesheet">
   <style>
     body {
       margin: 0;
       font-family: 'Orbitron', sans-serif;
-      background: linear-gradient(135deg, #0a0a0a, #1c1c1c);
-      color: #39ff14;
+      background: linear-gradient(135deg, #000000, #0a0a0a);
+      color: #00ffcc;
+      overflow-x: hidden;
     }
     nav {
       display: flex;
       justify-content: space-between;
       padding: 1rem 2rem;
-      border-bottom: 1px solid #39ff1444;
+      border-bottom: 1px solid #00ffcc44;
     }
     nav a {
-      color: #39ff14;
+      color: #00ffcc;
       text-decoration: none;
       font-size: 1rem;
     }
     header {
       text-align: center;
-      padding: 3rem 1rem;
+      padding: 2rem 1rem;
+      animation: fadeIn 2s ease-in;
     }
     h1 {
       font-size: 3rem;
+      letter-spacing: 2px;
     }
-    p {
-      font-size: 1.2rem;
-      margin: 1rem auto;
-      max-width: 800px;
+    .tagline {
+      font-style: italic;
+      margin-top: 0.5rem;
+      color: #ff0066;
+    }
+    .section {
+      padding: 2rem 1.5rem;
+      border-top: 1px solid #00ffcc33;
+      animation: slideUp 1s ease-in;
+    }
+    .section h2 {
+      color: #00ffcc;
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+    .section p {
+      font-size: 1.1rem;
+      line-height: 1.6;
+      color: #cccccc;
+    }
+    .roles-list {
+      margin-top: 1rem;
+      font-size: 1.1rem;
+      line-height: 2;
+      color: #66ffcc;
     }
     footer {
       text-align: center;
       padding: 1rem;
       font-size: 0.9rem;
-      border-top: 1px solid #39ff1433;
+      border-top: 1px solid #00ffcc33;
       color: #888;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: scale(0.9); }
+      to { opacity: 1; transform: scale(1); }
+    }
+    @keyframes slideUp {
+      from { transform: translateY(30px); opacity: 0; }
+      to { transform: translateY(0); opacity: 1; }
     }
   </style>
 </head>
 <body>
   <nav>
-    <a href="index.html">BLACK VENOM</a>
+    <a href="#">Home</a>
     <a href="zerohex.html">ZEROHEX</a>
   </nav>
+
   <header>
     <h1>BLACK VENOM</h1>
-    <p>“We don’t hack for fun. We inject fear — line by line.”</p>
-    <p>Hum geek nahi, code ke gangsters hain.<br>
-    Binary humari boli, exploits humara jazba.<br>
-    Na fame chahiye, na name —<br>
-    Sirf root access, silence, aur system crash ki game.<br><br>
-    Learning karni ho toh aa.<br>
-    Show off karna ho toh CTRL + ALT + Delete maar.<br><br>
-    We ain’t a group.<br>
-    We’re a digital revolution — wrapped in venom.</p>
+    <p class="tagline">“We don’t hack for fun. We inject fear — line by line.”</p>
   </header>
+
+  <div class="section">
+    <h2>Who We Are</h2>
+    <p>
+      BLACK VENOM is not just a hacking group. It's a digital revolution — wrapped in venom.
+      We don't seek fame or name. We seek root access, silence, and system crash.
+    </p>
+    <p>
+      We're not geeks. We're code's gangsters.
+      Binary is our language, and exploits are our passion.
+    </p>
+  </div>
+
+  <div class="section">
+    <h2>Structure</h2>
+    <div class="roles-list">
+      ∆VNM▲GØD — Founder<br>
+      VNM:PR1MΞ — Co-Founder / Dev<br>
+      ∆VNM|X0 — Elite Core<br>
+      ∆VNM404 — Soldiers<br>
+      ∆VNM? — Trial Recruits
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>Philosophy</h2>
+    <p>
+      Learning karni ho toh aa.<br>
+      Show off karna ho toh CTRL + ALT + Delete maar.
+    </p>
+    <p>
+      We ain’t a group. We’re a force. A shadow. A venom that spreads in silence.
+    </p>
+  </div>
+
   <footer>
-    ∆VNM▲GØD — Founder | BLACK VENOM Official Site
+    Designed by ∆VNM▲GØD | BLACK VENOM Official
+  </footer>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BLACK VENOM ∆VNM404</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Orbitron', sans-serif;
+      background: linear-gradient(135deg, #000000, #0a0a0a);
+      color: #00ffcc;
+      overflow-x: hidden;
+    }
+    nav {
+      display: flex;
+      justify-content: space-between;
+      padding: 1rem 2rem;
+      border-bottom: 1px solid #00ffcc44;
+    }
+    nav a {
+      color: #00ffcc;
+      text-decoration: none;
+      font-size: 1rem;
+    }
+    header {
+      text-align: center;
+      padding: 2rem 1rem;
+      animation: fadeIn 2s ease-in;
+    }
+    h1 {
+      font-size: 3rem;
+      letter-spacing: 2px;
+    }
+    .tagline {
+      font-style: italic;
+      margin-top: 0.5rem;
+      color: #ff0066;
+    }
+    .section {
+      padding: 2rem 1.5rem;
+      border-top: 1px solid #00ffcc33;
+      animation: slideUp 1s ease-in;
+    }
+    .section h2 {
+      color: #00ffcc;
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+    .section p {
+      font-size: 1.1rem;
+      line-height: 1.6;
+      color: #cccccc;
+    }
+    .roles-list {
+      margin-top: 1rem;
+      font-size: 1.1rem;
+      line-height: 2;
+      color: #66ffcc;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+      border-top: 1px solid #00ffcc33;
+      color: #888;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: scale(0.9); }
+      to { opacity: 1; transform: scale(1); }
+    }
+    @keyframes slideUp {
+      from { transform: translateY(30px); opacity: 0; }
+      to { transform: translateY(0); opacity: 1; }
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="#">Home</a>
+    <a href="zerohex.html">ZEROHEX</a>
+  </nav>
+
+  <header>
+    <h1>BLACK VENOM</h1>
+    <p class="tagline">“We don’t hack for fun. We inject fear — line by line.”</p>
+  </header>
+
+  <div class="section">
+    <h2>Who We Are</h2>
+    <p>
+      BLACK VENOM is not just a hacking group. It's a digital revolution — wrapped in venom.
+      We don't seek fame or name. We seek root access, silence, and system crash.
+    </p>
+    <p>
+      We're not geeks. We're code's gangsters.
+      Binary is our language, and exploits are our passion.
+    </p>
+  </div>
+
+  <div class="section">
+    <h2>Structure</h2>
+    <div class="roles-list">
+      ∆VNM▲GØD — Founder<br>
+      VNM:PR1MΞ — Co-Founder / Dev<br>
+      ∆VNM|X0 — Elite Core<br>
+      ∆VNM404 — Soldiers<br>
+      ∆VNM? — Trial Recruits
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>Philosophy</h2>
+    <p>
+      Learning karni ho toh aa.<br>
+      Show off karna ho toh CTRL + ALT + Delete maar.
+    </p>
+    <p>
+      We ain’t a group. We’re a force. A shadow. A venom that spreads in silence.
+    </p>
+  </div>
+
+  <footer>
+    Designed by ∆VNM▲GØD | BLACK VENOM Official
   </footer>
 </body>
 </html>
